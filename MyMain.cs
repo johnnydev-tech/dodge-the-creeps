@@ -45,9 +45,6 @@ public partial class MyMain : Node2D
 	{
 		GetNode<Timer>("MobTimer").Start();
 		GetNode<Timer>("ScoreTimer").Start();
-		
-		var hud = GetNode<MyHUD>("HUD");
-		hud.ShowMessage("");
 	}
 
 	private void OnMobTimerTimeout()

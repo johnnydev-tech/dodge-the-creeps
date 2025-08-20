@@ -13,6 +13,7 @@ public partial class MyPlayer : Area2D
 	public override void _Ready()
 	{
 		ScreenSize = GetViewportRect().Size;
+		Hide(); // Hide the player until the game starts.
 	}
 
 	public void Start(Vector2 position)
